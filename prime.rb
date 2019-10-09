@@ -1,6 +1,8 @@
 def prime?(num)
   if num <= 0 
     false 
+  elsif num == 2 
+    true 
   elsif num > 1 
     test_numbers = (2..num)
     test_numbers.each do |test|
